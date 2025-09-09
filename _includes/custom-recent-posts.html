@@ -1,0 +1,10 @@
+<div class="sidebar__recent">
+  <h3 class="sidebar__title">Recent Posts</h3>
+  <ul class="taxonomy__index">
+    {% for post in site.posts limit: 10 %}
+      <li style="margin: .25rem 0;">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
