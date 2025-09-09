@@ -19,11 +19,25 @@ paginate_path: "/page:num/"
 
 author:
   name: "Sung Nakyeong"
+  avatar: "/assets/images/profile.jpg"
   bio: "Ph.D student · Drone AI"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/Sung-Nakyeong"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"   # 아이콘이 안 보이면 label만 써도 됩니다
+      url: "https://scholar.google.com/"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your.name@domain.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/"
+
 
 # 기본 레이아웃/옵션(글에 자동 적용)
 defaults:
