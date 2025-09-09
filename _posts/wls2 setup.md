@@ -33,12 +33,10 @@ WSL2 환경을 구성하는 것은 매우 쉽지만 향후 다른 프로그램�
 ```powershell
 Get-ComputerInfo | Select-Object OsName, OsVersion, OsBuildNumber
 ```
+아래와 같이 OSBuild number로 버전 확인
 
-{% include figure
-   image_path="/assets/images/winver.png"
-   alt="Win 버전 확인"
-   caption="WSL2 활성화를 위한 Windows 버전 확인 명령창"
-%}
+![WSL 기능 활성화 스크린샷](/assets/images/winver.png)
+
 
 ## 2) WSL/가상화 기능 활성화(Powershell 관리자 권한 모드)
 ```powershell
@@ -56,5 +54,8 @@ wsl --install -d Ubuntu-20.04
 wsl --set-default-version 2
 ```
 
+여기까지 완료가 되면 기본적으로 **Ubuntu 20.04**배포판을 실행할 준비가 된것이다.
+
+다음 포스팅은 Ubuntu 20.04 를 실행하는 방법과 필수 패키지 설치를 다루고 더 편한 연구를 위해 바탕화면 아이콘으로 설정하는 방법을 다룬다.
 
 ---
