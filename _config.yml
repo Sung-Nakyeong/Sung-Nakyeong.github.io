@@ -1,7 +1,7 @@
 title: "NY.S 연구 블로그"
 description: "Drone · PX4 · ROS2 · AI 연구 기록"
-url: "https://nakyeong.github.io"
-baseurl: ""                 # 사용자 페이지는 빈 문자열
+url: "https://sung-nakyeong.github.io"
+baseurl: ""    # 개인 사이트는 빈 값
 locale: "ko-KR"
 
 # Minimal Mistakes 테마(가장 대중적)
