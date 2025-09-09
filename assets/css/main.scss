@@ -1,0 +1,14 @@
+---
+---
+
+@charset "utf-8";
+
+/* 스킨 이름(원래 쓰던 값과 동일하게) */
+$minimal_mistakes_skin: "default";
+
+/* 여기에서 사이트 최대 폭을 조정합니다 */
+$max-width: 1200px;  /* 기본보다 넓게. 원하면 1280/1400 등으로 */
+
+/* 테마 임포트 (이 줄들 아래에 오버라이드는 적용되지 않음) */
+@import "minimal-mistakes/skins/#{$minimal_mistakes_skin}";
+@import "minimal-mistakes";
