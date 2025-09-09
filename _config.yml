@@ -1,3 +1,46 @@
 title: "NY.S 연구 블로그"
-description: "드론 AI · PX4 · ROS2 연구 기록"
-theme: minima   # 기본 제공 테마
+description: "Drone · PX4 · ROS2 · AI 연구 기록"
+url: "https://nakyeong.github.io"
+baseurl: ""                 # 사용자 페이지는 빈 문자열
+locale: "ko-KR"
+
+# Minimal Mistakes 테마(가장 대중적)
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"   # "dark", "air", "neon" 등 취향대로
+
+# GitHub Pages에서 허용되는 플러그인
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+
+# 글 목록 페이지네이션(선택)
+paginate: 5
+paginate_path: "/page:num/"
+
+author:
+  name: "Sung Nakyeong"
+  bio: "Ph.D student · Drone AI"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Sung-Nakyeong"
+
+# 기본 레이아웃/옵션(글에 자동 적용)
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# 개별 페이지용 디렉토리 사용
+include:
+  - _pages
+
+# 네비게이션(헤더 메뉴)
+collections: {}
