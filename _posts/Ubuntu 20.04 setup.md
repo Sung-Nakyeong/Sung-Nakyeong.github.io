@@ -1,11 +1,12 @@
---- 
-layout: single title: "WSL2 환경 구성 (Windows 11)" 
-date: 2025-09-09 
-categories: [WSL2, Ubuntu20.04] 
-tags: [WSL2, Windows11, PowerShell, Ubuntu, 개발환경] 
-toc: true 
-toc_sticky: true 
-author_profile: true 
+---
+layout: single
+title: "Ubuntu20.04 실행 및 패키지 설치"
+date: 2025-09-09
+categories: [WSL2, Ubuntu20.04]
+tags: [WSL2, Windows11, PowerShell, Ubuntu, 개발환경]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 이제부터는 **Ubuntu 20.04 셸** 안에서 진행한다.
