@@ -1,5 +1,5 @@
 ---
-title: "연구 블로그 시작 – PX4/ROS2/Gazebo 기록"
+title: "0.연구 블로그 시작 – PX4/ROS2/Gazebo 기록"
 date: 2025-09-09
 categories: [research, drone]
 tags: [PX4, ROS2, Gazebo, YOLOv8]
