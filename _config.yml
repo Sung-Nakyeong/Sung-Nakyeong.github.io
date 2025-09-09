@@ -19,7 +19,7 @@ paginate_path: "/page:num/"
 
 author:
   name: "Sung Nakyeong"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "/assets/images/profile.png"
   bio: "Ph.D student · Drone AI"
   links:
     - label: "GitHub"
