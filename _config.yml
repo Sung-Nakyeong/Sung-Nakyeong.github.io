@@ -50,8 +50,9 @@ defaults:
       read_time: true
       comments: false
       share: true
-      related: true
-      classes : wide
+      related: true      
+      sidebar:
+        custom: custom-recent-posts.html
 
 # 개별 페이지용 디렉토리 사용
 include:
