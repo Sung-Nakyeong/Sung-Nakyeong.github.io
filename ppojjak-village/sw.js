@@ -1,5 +1,5 @@
 // 오프라인 실행용 캐시. 게임을 수정해서 다시 올릴 때는 VERSION 숫자를 올려주세요.
-const VERSION = 'ppojjak-v1';
+const VERSION = 'ppojjak-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
