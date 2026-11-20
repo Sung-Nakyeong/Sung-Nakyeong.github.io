@@ -819,7 +819,7 @@ HM.cv=new Cv('#homeCv',360,200);MG.cv=new Cv('#mergeCv',360,620);RH.cv=new Cv('#
 DR.cv=new Cv('#dressCv',360,400);HS.cv=new Cv('#houseCv',360,480);EG.cv=new Cv('#eggCv',360,440);
 wire();updateCoins();refit();setTimeout(refit,80);
 requestAnimationFrame(frame);
-if('serviceWorker' in navigator&&/^https?:/.test(location.protocol)){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))}
+if('serviceWorker' in navigator&&/^https?:/.test(location.protocol)){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{}))}
 window.__game={S:()=>S,MG,RH,EG,HS,go,mDrop,rTap,SP};
 </script>
 </body>
